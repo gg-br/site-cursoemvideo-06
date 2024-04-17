@@ -35,6 +35,9 @@ main
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
+
+    transition: width .5s, height .5s;
+    transition-timing-function: ease;
 }
 
 #login > #imagem
@@ -50,4 +53,15 @@ main
 {
     display: block;
     padding: 10px;
+}
+
+#formulario > h1
+{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#formulario > p
+{
+    font-size: 0.8em;
 }
